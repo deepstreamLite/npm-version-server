@@ -1,0 +1,25 @@
+{
+  "name": "npm-version-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoxton-one/npm-version-server.git"
+  },
+  "author": "Hoxton One",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoxton-one/npm-version-server/issues"
+  },
+  "homepage": "https://github.com/hoxton-one/npm-version-server#readme",
+  "dependencies": {
+    "async": "^1.3.0",
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "npm": "^2.13.0"
+  }
+}
