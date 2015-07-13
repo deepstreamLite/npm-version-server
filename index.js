@@ -99,4 +99,9 @@ app.post('/',function(req, res){
 	});
 });
 
+app.get( '/reset', function( req, res ){
+	cache = {};
+	res.send( 'OK' );
+});
+
 app.listen( process.env.PORT || 3000 );
