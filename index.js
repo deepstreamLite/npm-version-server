@@ -77,7 +77,7 @@ function getPackageVersions( packages, callback ) {
 app.use( bodyParser.json() );
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.post('/',function(req, res){
+app.post('/versions',function(req, res){
 	res.set( 'Access-Control-Allow-Origin', '*' );
 
 	if( !req.body ) {
@@ -99,9 +99,11 @@ app.post('/',function(req, res){
 	});
 });
 
-app.get( '/reset', function( req, res ){
+app.get( '/versions/reset', function( req, res ){
 	cache = {};
 	res.send( 'OK' );
 });
 
-app.listen( process.env.PORT || 3000 );
+app.listen( 3000, function() {
+	console.log( 'Listening for npm-versions on port 3000' );
+} );
