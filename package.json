@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoxton-one/npm-version-server.git"
+    "url": "git+https://github.com/deepstreamIO/npm-version-server.git"
   },
   "author": "Hoxton One",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hoxton-one/npm-version-server/issues"
+    "url": "https://github.com/deepstreamIO/npm-version-server/issues"
   },
-  "homepage": "https://github.com/hoxton-one/npm-version-server#readme",
+  "homepage": "https://github.com/deepstreamIO/npm-version-server#readme",
   "dependencies": {
     "async": "^1.3.0",
     "body-parser": "^1.13.2",
